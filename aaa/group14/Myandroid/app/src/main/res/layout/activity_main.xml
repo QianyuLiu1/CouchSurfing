@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<LinearLayout android:orientation="vertical" android:theme="@android:style/Theme.Translucent" android:background="@drawable/bg_img" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+-<LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center_horizontal|bottom" android:layout_weight="1.8" android:paddingRight="15dip" android:paddingLeft="15dip">
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15sp" android:text="Address" android:id="@+id/et_address"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:textSize="12sp" android:id="@+id/et_address" android:hint="country/province/city/ district/detailed location"/>
+
+</LinearLayout>
+
+
+-<LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center_horizontal|center_vertical" android:layout_weight="1.85" android:paddingRight="15dip" android:paddingLeft="15dip">
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15sp" android:text="Price" android:id="@+id/tv_price"/> 
+
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:textSize="15sp" android:id="@+id/et_price" android:inputType="text" android:hint="xx"/>
+
+</LinearLayout>
+
+
+-<LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center_horizontal|center_vertical" android:layout_weight="1.85" android:paddingRight="15dip" android:paddingLeft="15dip">
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15sp" android:text="Telephone" android:id="@+id/tv_telphone"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:textSize="15sp" android:id="@+id/et_telphone" android:hint="xxx-xxxxxx"/>
+
+</LinearLayout>
+
+
+-<LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="left|center_vertical" android:layout_weight="1.95" android:paddingRight="15dip" android:paddingLeft="15dip">
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="12sp" android:text="Upload Box" android:id="@+id/tv_upload"/>
+
+</LinearLayout>
+
+
+-<LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center_horizontal|bottom" android:layout_weight="1.2" android:paddingRight="15dip" android:paddingLeft="15dip">
+
+
+-<TableLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:stretchColumns="0,1">
+
+
+-<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow1" >
+
+<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:contentDescription="@string/img_logo" android:src="@drawable/upload"/>
+
+<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:contentDescription="@string/img_logo" android:src="@drawable/upload"/>
+
+</TableRow>
+
+
+-<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow2">
+
+<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:contentDescription="@string/img_logo" android:src="@drawable/upload"/>
+
+<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:contentDescription="@string/img_logo" android:src="@drawable/upload"/>
+
+</TableRow>
+
+</TableLayout>
+
+</LinearLayout>
+
+
+-<LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center_horizontal|top" android:layout_weight="1.95" android:paddingRight="15dip" android:paddingLeft="15dip">
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15sp" android:text="Submit" android:id="@+id/bt_submit"> </Button>
+
+</LinearLayout>
+
+
+-<LinearLayout android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="right|top" android:layout_weight="1.95" android:paddingRight="15dip" android:paddingLeft="15dip">
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15sp" android:text="Confirm" android:id="@+id/bt_confirm"> </Button>
+
+</LinearLayout>
+
+</LinearLayout><RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity" >
+    
+</RelativeLayout>
